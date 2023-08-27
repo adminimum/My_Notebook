@@ -1,1 +1,1 @@
-architecture/*.terraform
+*.terraform*
