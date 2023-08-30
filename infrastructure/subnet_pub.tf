@@ -3,7 +3,7 @@ resource "aws_subnet" "public" {
   availability_zone = "${var.availability_zone}a"
 
   cidr_block = "${var.cidr_block_pub}"
-
+  map_public_ip_on_launch = true
   tags = {
     Name = "public_subnet_My_notebook"
     Terraform=true

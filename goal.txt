@@ -27,7 +27,7 @@
 Это веб-приложение позволит пользователям сохранить свои важные моменты, делиться ими с другими и находить вдохновение в историях других пользователей.
 
 
-flask, media files -> Amazon s3, Mysql
+flask(skeditor), media files -> Amazon s3, Mysql
 opened notebooks full, or opened posts
 
 Settings -> change pass, username, avatar, tags, public options(notebooks), public options at all, delete account
