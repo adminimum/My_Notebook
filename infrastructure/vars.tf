@@ -26,18 +26,28 @@ variable "port_of_app"{
   default = 7373
 }
 variable "ip_kub_master"{
-  default = "10.10.1.2"
+  default = "10.10.1.6"
 }
 variable "ip_kub_node"{
-  default = "10.10.1.3"
+  default = "10.10.1.7"
 }
 variable "ip_mysql"{
-  default = "10.10.1.4"
+  default = "10.10.1.8"
 }
 variable "ip_web_server"{
-  default = "10.10.2.2"
+  default = "10.10.2.9"
 }
 variable "ssh_key" {
   type = string
   description = "Provides custom public ssh key"
+}
+variable "private_gateway" {
+  type = string
+  description = "private subnet ip for gateway"
+  default = "10.10.1.1"
+}
+variable "public_gateway" {
+  type = string
+  description = "public subnet ip for gateway"
+  default = "10.10.2.1"
 }
