@@ -1,3 +1,3 @@
 # My_Notebook
-##Infrastructure
-[Diagram](Diagram_Infrastructure.pdf)
+## Infrastructure
+[Diagram](infrastructure/Diagram_Infrastructure.pdf)
